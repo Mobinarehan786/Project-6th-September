@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.event-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #72adc9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-header h1 {
+    color: #167942;
+}
+
+.event-details, .event-schedule, .event-registration {
+    margin-bottom: 20px;
+}
+
+.event-details p, .event-schedule ul {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.event-schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-schedule li {
+    padding: 5px 0;
+}
+
+.event-registration form {
+    display: grid;
+    gap: 15px;
+}
+
+.event-registration label {
+    font-size: 16px;
+    color: #333;
+}
+
+.event-registration input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.event-registration button {
+    padding: 10px;
+    background-color: #0c5f35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-registration button:hover {
+    background-color: #002244;
+}
